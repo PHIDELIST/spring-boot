@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: SpringBootApp
+
+app:
+  userName: ${USER_NAME:Guest} 

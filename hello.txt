@@ -1,0 +1,2 @@
+docker build -t env-spring-app .
+docker run -p 8080:8080 -e USER_NAME="Phidelist" env-spring-app
